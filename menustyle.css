@@ -332,9 +332,9 @@ body{
 						height:50px;
 						align-items:center;
 						justify-content:center;
-										position:fixed;
+										position:absolute;
 									top:25px;
-							left: 500px;
+							right: 15%;
 										border-radius:50px;
 										z-index:20;
 										box-shadow:0px 0px 4px black;
