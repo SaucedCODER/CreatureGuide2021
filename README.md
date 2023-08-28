@@ -25,7 +25,7 @@ While the app is functional, I have plans to further enhance its features and im
 
 ## Credits
 
-This project draws inspiration from my passion for animals and web development. Special thanks to [Source/Resource Name] for the animal data.
+This project draws inspiration from my passion for animals and web development. Special thanks to [wekipedia.com] for the animal data.
 
 Feel free to explore and enjoy the animal insights in this app!
 
