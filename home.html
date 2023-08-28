@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menustyle.css">
+  <link rel="stylesheet" href="forbackgroundpics.css">
+				<title>Home</title>
+</head>
+<body style="max-width:600px;">
+	
+				<style>
+						.list,.animali{
+							cursor: pointer;
+						}
+						.page2,.page3{
+							max-width: 600px !important;
+						}
+						.descofaniml{
+							width: 100%;
+						}
+						.icon{
+										height:30px;
+										width:30px;
+										cursor:pointer;
+										transform:translateX(-10px);
+										border:2px solid #d2d2d2;
+										border-radius:50px;
+										
+										
+				
+						}		
+						@keyframes glowforsun{
+						
+										0%{
+										box-shadow:0px 0px 0px red;
+						}
+						50%{
+						box-shadow:0px 0px 50px red;}}
+						@keyframes glowformoon{
+						
+										0%{
+										box-shadow:0px 0px 0px black;
+						}
+						50%{
+						box-shadow:0px 0px 50px black;}}
+				</style>
+
+				 <div class="nav">
+					<button id="burger" class="burger">
+									<div class="layer"></div>
+									<div class="layer"></div>
+									<div class="layer"></div>
+					</button>
+					
+					<div class="header">Animal Information</div>
+					<img class="icon"src="./images/moon.png" alt="">
+				</div>
+				<div class="side-nav">
+								<div class="side-head">
+											<div class="side-title">Animal Information</div>
+								</div>
+								
+								<ul class="nav-list">
+												<li><a href="home.html">Home</a></li>
+							          <li><a href="#">Favorites</a></li>
+							          <li><a href="#">Share</a></li>
+							          <li><a href="#">Share Apps</a></li>
+							          <li><a href="#">Contact us</a></li>
+							          
+								</ul>
+								</div>
+				<div id="side-container" class="side-container">
+								</div>
+				  
+								
+								<div class="animal-list">
+												<a class="list"id="link1"><div class="title">Pet Animals</div></a>
+												<a id="link2"class="list"><div class="title">Forest Animals</div></a>
+												<a id="link3"class="list"><div class="title">Ocean Animals</div></a>
+												<a id="link4"class="list"><div class="title">Reptiles</div></a>
+												<a id="link5"class="list"><div class="title">Insects</div></a>
+												<a id="link6"class="list"><div class="title">Tiger species</div></a>
+												
+								</div>
+								<!-- page 2 -->
+								<div class="page2">
+												<div class="title-head"></div>
+												<div class="grid-animal">
+																<div class="animali" id="animlk1"><div id="animl1"class="namean"></div></div>
+																<div class="animali"id="animlk2"><div id="animl2"class="namean"></div></div>
+																<div class="animali"id="animlk3"><div id="animl3"class="namean"></div></div>
+																<div class="animali"id="animlk4"><div id="animl4"class="namean"></div></div>
+																<div class="animali"id="animlk5"><div id="animl5"class="namean"></div></div>
+																<div class="animali"id="animlk6"><div id="animl6"class="namean"></div></div>
+												</div>
+												<button id="closebtn" class="closebtn">&times</div>
+								</button>
+		
+			<!-- page 3 -->
+			
+			<div class="page3">
+							<div class="exit"id="exit">
+						<button class="blogo">&times
+							</button>
+							</div>
+							<div class="bpic"id="bpic">
+										<div class="newb"></div>
+									<div class="updname" id="updname">Pet</div>		
+							</div>
+							<div class="updname2" id="updname2">Pet</div>
+							
+						<div class="descofaniml" id="descofaniml"></div>
+			</div>
+				
+				<script src="upadateinfo.js"></script>
+					 
+</body>
+</html>
